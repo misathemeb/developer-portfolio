@@ -1,11 +1,11 @@
 export const blogData = [
     {
         id: 1,
-        title: 'Cloning Sportsjam.in',
-        description: 'My expeirence working on my first big project within the Masai Curriculum',
-        date: 'Dec 19, 2021',
-        image: 'https://miro.medium.com/max/875/1*R__cdn8L1gYGK1Tdqqyubg.png',
-        url: 'https://medium.com/@sreerag.rajan5/cloning-sportsjam-in-cd1c80c1b06b'
+        title: 'Unifeed blog',
+        description: '',
+        date: '1/12/2022',
+        image: '',
+        url: 'https://misathemeb.github.io/Unifeed_blog_1.12.22/index.html'
     },
     {
         id: 2,

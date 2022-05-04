@@ -44,7 +44,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                 <div className='projectContent'>
                     <h2
                         id={name.replace(' ', '-').toLowerCase()}
-                        style={{ color: theme.tertiary }}
+                        style={{ color: 'white' }}
                     >
                         {name}
                     </h2>
@@ -67,6 +67,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                                     .toLowerCase()}-demo`}
                                 className={classes.icon}
                                 aria-label='Demo'
+                                style={{color: 'white'}}
                             />
                         </a>
                         <a
@@ -86,6 +87,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                                     .toLowerCase()}-code`}
                                 className={classes.icon}
                                 aria-label='Code'
+                                style={{color: 'white'}}
                             />
                         </a>
                     </div>

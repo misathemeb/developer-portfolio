@@ -1,9 +1,10 @@
-import resume from '../assets/pdf/resume.pdf'
+// import resume from '../assets/pdf/resume.pdf'
+import resume2 from '../assets/pdf/resume2.pdf'
 
 export const headerData = {
-    name: 'Sreerag Rajan',
-    title: "Web Developer",
-    desciption:"Life may be a meandering path but don't worry about it, rather enjoy it. It is about the journey, not the destination so explore all that comes your way, learn and grow from it, for this journey only happens once.",
-    image: 'https://avatars.githubusercontent.com/u/85482640?v=4',
-    resumePdf: resume
+    name: 'Melissa Bridi',
+    title: "Front End Developer",
+    description:" I’m a research scientist making a career change and looking for a front-end gig preferably in health tech. Fun facts: I have visited 25 countries around the world and have used a gamma-ray IRL to kill tumor cells working in oncology research!",
+    image: 'https://avatars.githubusercontent.com/u/91221861?v=4',
+    resumePdf: resume2
 }

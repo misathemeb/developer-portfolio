@@ -34,8 +34,10 @@ import java from '../assets/svg/skills/java.svg'
 import julia from '../assets/svg/skills/julia.svg'
 import kotlin from '../assets/svg/skills/kotlin.svg'
 import matlab from '../assets/svg/skills/matlab.svg'
+import nodejs from '../assets/svg/skills/nodejs.svg'
 import php from '../assets/svg/skills/php.svg'
 import python from '../assets/svg/skills/python.svg'
+import redux from '../assets/svg/skills/redux.svg'
 import ruby from '../assets/svg/skills/ruby.svg'
 import swift from '../assets/svg/skills/swift.svg'
 import adobeaudition from '../assets/svg/skills/adobeaudition.svg'
@@ -103,6 +105,8 @@ export const skillsImage = (skill) => {
             return nextJS;
         case 'nuxt js':
             return nuxtJS;
+        case 'nodejs':
+            return nodejs
         case 'react':
             return react;
         case 'svelte':
@@ -157,6 +161,8 @@ export const skillsImage = (skill) => {
             return python;
         case 'ruby':
             return ruby;
+        case 'redux':
+            return redux;
         case 'swift':
             return swift;
         case 'adobe audition':
