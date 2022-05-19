@@ -9,7 +9,7 @@ export const projectsData = [
         tags: ['HTML' ,'CSS'],
         code: 'https://github.com/misathemeb/misathemeb.github.io/tree/main/Unifeed_blog_1.12.22',
         demo: 'https://misathemeb.github.io/Unifeed_blog_1.12.22/index.html',
-        image: "https://user-images.githubusercontent.com/91221861/166801436-49658e85-9c92-46c4-a473-3f2704bb4e16.png"
+        image: "https://user-images.githubusercontent.com/91221861/169353770-e7281639-3a7d-4c1c-94bb-7c1898d2c6b4.png"
     },
     {
         id: 2,
