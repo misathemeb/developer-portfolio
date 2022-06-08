@@ -32,8 +32,8 @@
     font-size: 3.5rem;
     margin-bottom: 2.5rem;
     text-align: center;
-    margin-left: -3rem;
-    width: 100%;
+    margin-left: -1rem;
+    width: 90%;
    
 
 }
@@ -42,8 +42,8 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: flex-start;
-    width: 100%;
+    justify-content: center;
+    width: 90%;
 }
 
 .contacts-form {
@@ -129,15 +129,12 @@
     transition: all 0.3s 0.8s ease-in-out;
 }
 
-.contacts-details {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-evenly;
+.contacts-details { 
+    align-items: center;
+    justify-content: center;
     flex: 1;
-    box-sizing: border-box;
-    padding-left: 7rem;
-    margin-top: 1.2rem;
+    padding-left: 12rem;
+    margin-top: 1.5rem;
 }
 
 
@@ -161,14 +158,11 @@
     word-break: break-word;
 }
 
-.socialmedia-icons {
-    
+.socialmedia-icons {   
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 1.5rem;
-    margin-top: 4rem;
+    flex-direction: column;
+    gap: 3em;
+    margin-top: 1.5rem;
 }
 
 
