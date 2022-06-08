@@ -8,11 +8,11 @@ import {
     FaTwitter,
     FaLinkedinIn,
     FaGithub,
-    FaInstagram,
+    
     
 } from 'react-icons/fa';
 import { AiOutlineSend, AiOutlineCheckCircle } from 'react-icons/ai';
-import { FiPhone, FiAtSign } from 'react-icons/fi';
+import { FiAtSign, FiMail } from 'react-icons/fi';
 import { HiOutlineLocationMarker } from 'react-icons/hi';
 
 import { ThemeContext } from '../../contexts/ThemeContext';
@@ -161,16 +161,16 @@ function Contacts() {
             style={{ backgroundColor: theme.secondary }}
         >
             <div className='contacts--container'>
-                <h1 style={{ color: theme.primary }}>Contacts</h1>
+                <h1 style={{ color: theme.primary }}>Contact</h1>
                 <div className='contacts-body'>
-                    {/* <div className='contacts-form'>
+                    <div className='contacts-form'>
                         <form onSubmit={handleContactForm}>
                             <div className='input-container'>
                                 <label htmlFor='Name' className={classes.label}>
                                     Name
                                 </label>
                                 <input
-                                    placeholder='John Doe'
+                                    placeholder='Regular Person'
                                     value={name}
                                     onChange={(e) => setName(e.target.value)}
                                     type='text'
@@ -186,7 +186,7 @@ function Contacts() {
                                     Email
                                 </label>
                                 <input
-                                    placeholder='John@doe.com'
+                                    placeholder='Regular@person.com'
                                     value={email}
                                     onChange={(e) => setEmail(e.target.value)}
                                     type='email'
@@ -272,7 +272,7 @@ function Contacts() {
                                 message={errMsg}
                             />
                         </Snackbar>
-                    </div> */}
+                    </div>
 
                     <div className='contacts-details'>
                         <a
@@ -280,7 +280,7 @@ function Contacts() {
                             className='personal-details'
                         >
                             <div className={classes.detailsIcon}>
-                                <FiAtSign />
+                                <FiMail />
                             </div>
                             <p style={{ color: theme.tertiary }}>
                                 {contactsData.email}
