@@ -6,6 +6,7 @@ import { headerData } from '../../data/headerData'
 
 
 function Main() {
+  
     return (
         <div>
             <Helmet>
@@ -14,6 +15,8 @@ function Main() {
 
             <Navbar />        
             <Landing />
+           
+           
           
             <About />
             <Skills />
