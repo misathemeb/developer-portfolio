@@ -2,9 +2,7 @@ import React, { useContext } from 'react';
 import { Button } from '@material-ui/core';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
 import { makeStyles } from '@material-ui/core/styles';
-import Slider from 'react-slick';
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+
 import './Landing.css';
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { headerData } from '../../data/headerData';
@@ -19,21 +17,7 @@ import {
 
 function Landing() {
     const { theme, drawerOpen } = useContext(ThemeContext);
-// settings for Slider in react-slick
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 400,
-        fade: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        centerMode: true,
-        variableWidth: true,
-        cssEase: 'linear',
-        edgeFriction: 0.15,
-        swipeToSlide: true
-       
-     };
+
 
     const useStyles = makeStyles((t) => ({
         resumeBtn: {
@@ -137,40 +121,26 @@ function Landing() {
                     </div>
                 </div>
 
-                <div className='landing--img'>
+                <div className='landing--container' >
               
-                <Slider {...settings}>
-                    <div>
-                    <img
+                    <img 
                         src={headerData.image}
                         alt=''
-                        // className='landing--img'
-                        // style={{
-                        //     opacity: `${drawerOpen ? '0' : '1'}`,
-                        //     borderColor: theme.secondary,
-                        // }}
+                        className='landing--img'
+                        style={{
+                            opacity: `${drawerOpen ? '0' : '1'}`,
+                            borderColor: theme.secondary,
+                        }}
                 />
                     </div>
 
-                    <div>
-                    <img
-                        src={headerData.image}
-                        alt=''
-                        // className='landing--img'
-                        // style={{
-                        //     opacity: `${drawerOpen ? '0' : '1'}`,
-                        //     borderColor: theme.secondary,
-                        // }}
-                />
-                    </div>
+            
 
                     
 
                     
 
-                
-                </Slider>
-                </div>
+             
              
 
                 <div

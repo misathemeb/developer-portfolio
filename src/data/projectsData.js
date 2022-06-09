@@ -23,7 +23,7 @@ export const projectsData = [
     {
         id: 3,
         projectName: 'Hosterr landing page',
-        projectDesc: 'This project is a codewell challenge to practice layout and form fields',
+        projectDesc: 'This project is a codewell challenge to practice CSS layout and form fields',
         tags: ['HTML', 'CSS'],
         code: 'https://github.com/misathemeb/misathemeb.github.io/tree/main/Hosterr%20site%2011.29.21/Design',
         demo: 'https://misathemeb.github.io/Hosterr%20site%2011.29.21/Design/hosterr.html',
@@ -32,7 +32,7 @@ export const projectsData = [
     {
         id: 4,
         projectName: 'Appointment planner',
-        projectDesc: 'This is the project I made on the Codecademy front-end engineer career path using React utilizing stateful and stateless status using React hooks.',
+        projectDesc: 'This is a project I made on the Codecademy front-end engineer career path with React stateful and stateless components using React hooks.',
         tags: ['React', 'HTML', 'CSS'],
         code: 'https://github.com/sreerag-rajan/Reliance-Digital-Clone-U4-',
         demo: '',

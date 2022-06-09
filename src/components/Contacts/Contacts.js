@@ -8,15 +8,10 @@ import {
     FaTwitter,
     FaLinkedinIn,
     FaGithub,
-    
-    
 } from 'react-icons/fa';
 import { AiOutlineSend, AiOutlineCheckCircle } from 'react-icons/ai';
-import { FiAtSign, FiMail } from 'react-icons/fi';
-import { HiOutlineLocationMarker } from 'react-icons/hi';
-
+import { FiMail } from 'react-icons/fi';
 import { ThemeContext } from '../../contexts/ThemeContext';
-
 import { socialsData } from '../../data/socialsData';
 import { contactsData } from '../../data/contactsData';
 import './Contacts.css';

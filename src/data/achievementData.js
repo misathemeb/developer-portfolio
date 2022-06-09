@@ -28,7 +28,7 @@ export const achievementData = {
         {
             id : 4,
             title : 'Learn Advanced Python3',
-            details : 'Programming course from Codecademy Pro',
+            details : 'Programming course from Codecademy Pro with prerequisite Python for beginners and intermediate Python',
             date : '4/5/2022',
             field : 'Data Science',
             image : 'https://user-images.githubusercontent.com/91221861/166745694-21b9a15e-cdd4-4d42-955f-0786279333b5.png'
