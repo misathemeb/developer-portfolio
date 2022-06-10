@@ -7,11 +7,9 @@
     position: relative;
 }
 
-
 .contacts--img {
     position: absolute;
     right: 30px;
-    /* bottom: 10px; */
     width: 380px;
     pointer-events: none;
 }
@@ -21,10 +19,10 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    padding: 2rem 6rem 3rem;
+    padding: 3rem 6rem 3rem;
     width: 100%;
     height: 100%;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .contacts--container > h1 {
@@ -33,7 +31,7 @@
     margin-bottom: 2.5rem;
     text-align: center;
     margin-left: -1rem;
-    width: 90%;
+    width: 100%;
 }
 
 .contacts-body {
@@ -61,7 +59,6 @@
     width: 100%;
 }
 
-
 .form-input {
     height: 50px;
     box-sizing: border-box;
@@ -74,8 +71,6 @@
     resize: none;
 }
 
-
-
 .form-message {
     height: 150px;
     box-sizing: border-box;
@@ -87,8 +82,6 @@
     width: 100%;
     resize: none;
 }
-
-
 
 .submit-btn button {
     border: none;
@@ -132,8 +125,6 @@
     flex: 1;
     margin-top: 1.5rem;
 }
-
-
 
 .personal-details {
     display: flex;
@@ -274,9 +265,6 @@
         padding: 0rem;
     }
 }
-
-
-
 
 
 @keyframes spin{
