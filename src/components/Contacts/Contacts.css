@@ -34,8 +34,6 @@
     text-align: center;
     margin-left: -1rem;
     width: 90%;
-   
-
 }
 
 .contacts-body {
@@ -43,7 +41,6 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
-    width: 90%;
 }
 
 .contacts-form {
@@ -131,9 +128,8 @@
 
 .contacts-details { 
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     flex: 1;
-    padding-left: 12rem;
     margin-top: 1.5rem;
 }
 
