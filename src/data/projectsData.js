@@ -42,11 +42,21 @@ export const projectsData = [
         id: 5,
         projectName: 'Countries',
         projectDesc: 'This project is a fullstack app inspired by a FrontEndMentor challenge.',
-        tags: ['HTML', 'CSS', 'Javascript'],
+        tags: ['HTML', 'CSS', 'React', 'JSX'],
         code: '',
         demo: '',
         image: ""
     },
+    {
+        id: 6,
+        projectName: 'Reddit minimal',
+        projectDesc: 'This project is a fullstack app inspired by a Codecademy Pro challenge.',
+        tags: ['HTML', 'CSS', 'React', 'JSX'],
+        code: '',
+        demo: '',
+        image: ""
+    }
+    
     
 ]
 
