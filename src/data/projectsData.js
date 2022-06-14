@@ -18,7 +18,7 @@ export const projectsData = [
         tags: ['HTML', 'CSS','React',],
         code: 'https://github.com/misathemeb/jammming',
         demo: 'https://github.com/misathemeb/jammming/tree/main/jammming-fe/src',
-        image: "https://user-images.githubusercontent.com/91221861/160173014-93eeb268-1a21-4aa7-84a8-f92b2a32a20d.png"
+        image: "https://user-images.githubusercontent.com/91221861/173615525-25448204-c42a-412e-9759-be0cfb1a6844.png"
     },
     {
         id: 3,
