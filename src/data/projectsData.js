@@ -13,12 +13,12 @@ export const projectsData = [
     },
     {
         id: 2,
-        projectName: 'Reviews generator',
-        projectDesc: 'This is a vanilla javascript app with an express.js backend to demonstrate pulling data vs a data.js file',
-        tags: ['HTML', 'CSS','Javascript', 'party.js', 'express.js'],
-        code: 'https://github.com/misathemeb/reviews',
-        demo: '',
-        image: ""
+        projectName: 'Jammming playlist generator',
+        projectDesc: 'This is a playlist creation app utilizing React & Spotify API implicit grant flow',
+        tags: ['HTML', 'CSS','React',],
+        code: 'https://github.com/misathemeb/jammming',
+        demo: 'https://github.com/misathemeb/jammming/tree/main/jammming-fe/src',
+        image: "https://user-images.githubusercontent.com/91221861/160173014-93eeb268-1a21-4aa7-84a8-f92b2a32a20d.png"
     },
     {
         id: 3,
@@ -44,6 +44,15 @@ export const projectsData = [
         projectDesc: 'This project is a fullstack app inspired by a FrontEndMentor challenge.',
         tags: ['HTML', 'CSS', 'React', 'JSX'],
         code: '',
+        demo: '',
+        image: ""
+    },
+    {
+        id: 6,
+        projectName: 'Reviews generator',
+        projectDesc: 'This is a vanilla javascript app with an express.js backend to demonstrate pulling data vs a data.js file',
+        tags: ['HTML', 'CSS','Javascript', 'party.js', 'express.js'],
+        code: 'https://github.com/misathemeb/reviews',
         demo: '',
         image: ""
     },
