@@ -36,7 +36,7 @@ export const projectsData = [
         tags: ['React', 'HTML', 'CSS'],
         code: 'https://github.com/misathemeb/Appointment-Planner',
         demo: 'https://react-appt-planner.netlify.app/',
-        image: "https://user-images.githubusercontent.com/91221861/163689191-186cc279-3c0d-43d4-a909-aeb1d1cbfbf3.png"
+        image: "https://user-images.githubusercontent.com/91221861/173641298-006f24a3-c9f3-460c-9b02-6a9bec93c66e.png"
     },
     {
         id: 5,
