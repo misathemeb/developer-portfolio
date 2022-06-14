@@ -34,8 +34,8 @@ export const projectsData = [
         projectName: 'Appointment planner',
         projectDesc: 'This is a project I made on the Codecademy front-end engineer career path with React stateful and stateless components using React hooks.',
         tags: ['React', 'HTML', 'CSS'],
-        code: 'https://github.com/sreerag-rajan/Reliance-Digital-Clone-U4-',
-        demo: '',
+        code: 'https://github.com/misathemeb/Appointment-Planner',
+        demo: 'https://react-appt-planner.netlify.app/',
         image: "https://user-images.githubusercontent.com/91221861/163689191-186cc279-3c0d-43d4-a909-aeb1d1cbfbf3.png"
     },
     {
@@ -47,15 +47,7 @@ export const projectsData = [
         demo: '',
         image: ""
     },
-    {
-        id: 6,
-        projectName: 'Reddit minimal',
-        projectDesc: 'This project is a fullstack app inspired by a Codecademy Pro challenge.',
-        tags: ['HTML', 'CSS', 'React', 'JSX'],
-        code: '',
-        demo: '',
-        image: ""
-    }
+    
     
     
 ]
