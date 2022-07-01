@@ -81,7 +81,7 @@ function Navbar() {
             },
         },
         drawerItem: {
-            margin: '2rem auto',
+            margin: '1rem auto',
             borderRadius: '78.8418px',
             background: theme.secondary,
             color: theme.primary,
@@ -90,7 +90,7 @@ function Navbar() {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'space-evenly',
-            padding: '0 30px',
+            padding: '0 20px',
             boxSizing: 'border-box',
             border: '2px solid',
             borderColor: theme.primary,
@@ -108,7 +108,7 @@ function Navbar() {
         drawerLinks: {
             fontFamily: 'var(--primaryFont)',
             width: '50%',
-            fontSize: '1.3rem',
+            fontSize: '1rem',
             fontWeight: 600,
             [t.breakpoints.down('sm')]: {
                 fontSize: '1.125rem',
@@ -253,6 +253,24 @@ function Navbar() {
                                     />
                                     <span className={classes.drawerLinks}>
                                         Projects
+                                    </span>
+                                </div>
+                            </NavLink>
+                        </Fade>
+
+                        <Fade left>
+                            <NavLink
+                                to='/#achievement'
+                                smooth={true}
+                                spy='true'
+                                duration={2000}
+                            >
+                                <div className={classes.drawerItem}>
+                                    <FaFolderOpen
+                                        className={classes.drawerIcon}
+                                    />
+                                    <span className={classes.drawerLinks}>
+                                        Achievements
                                     </span>
                                 </div>
                             </NavLink>
