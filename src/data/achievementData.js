@@ -3,14 +3,22 @@ export const achievementData = {
     achievements : [
         {
             id : 1,
-            title : 'Learn Git & GitHub',
-            details : 'A CLI & version control course from Codecademy',
-            date : '2/21/2022',
-            field : 'Coding',
-            image : 'https://user-images.githubusercontent.com/91221861/166742005-1e5614db-062b-4462-8c99-4b78a92edef1.png'
+            title : 'Front-End Engineer Career Path',
+            details : 'Codecademy Pro curriculum included 129 lessons and 77 projects to complete.',
+            date : '7/1/2022',
+            field : 'Programming',
+            image : 'https://user-images.githubusercontent.com/91221861/176955602-6dbf71c8-f151-4aab-95c7-328b1d53f042.png'
         },
         {
             id : 2,
+            title : 'Learn Git & GitHub',
+            details : 'A CLI & version control course from Codecademy',
+            date : '2/21/2022',
+            field : 'Programming',
+            image : 'https://user-images.githubusercontent.com/91221861/166742005-1e5614db-062b-4462-8c99-4b78a92edef1.png'
+        },
+        {
+            id : 3,
             title : 'Learn SQL',
             details : 'A SQLite course from Codecademy',
             date : '3/1/2022',
@@ -18,7 +26,7 @@ export const achievementData = {
             image : 'https://user-images.githubusercontent.com/91221861/166744339-722071d5-e7ad-4dc0-9ed4-9d7d4525dbfb.png'
         },
         {
-            id : 3,
+            id : 4,
             title : 'Learn JavasScript',
             details : 'Programming course from Codecademy Front end engineer path',
             date : '12/21/2021',
@@ -26,7 +34,7 @@ export const achievementData = {
             image : 'https://user-images.githubusercontent.com/91221861/166745095-a6fbab58-137c-4ea9-9883-4729eb9952b7.png'
         },
         {
-            id : 4,
+            id : 5,
             title : 'Learn Advanced Python3',
             details : 'Programming course from Codecademy Pro with prerequisite Python for beginners and intermediate Python',
             date : '4/5/2022',
@@ -35,7 +43,7 @@ export const achievementData = {
         },
 
         {
-            id : 5,
+            id : 6,
             title : 'Learn Responsive Design',
             details : 'Web development course from Codecademy Front end engineer path',
             date : '10/20/2021',
