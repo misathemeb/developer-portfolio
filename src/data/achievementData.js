@@ -14,7 +14,7 @@ export const achievementData = {
             title : 'Learn Git & GitHub',
             details : 'A CLI & version control course from Codecademy',
             date : '2/21/2022',
-            field : 'CLI, version control',
+            field : 'version control',
             image : 'https://user-images.githubusercontent.com/91221861/166742005-1e5614db-062b-4462-8c99-4b78a92edef1.png'
         },
         {
