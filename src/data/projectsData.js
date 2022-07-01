@@ -43,8 +43,8 @@ export const projectsData = [
         projectName: 'Countries',
         projectDesc: 'This project is a fullstack app inspired by a FrontEndMentor challenge.',
         tags: ['HTML', 'CSS', 'React', 'JSX'],
-        code: '',
-        demo: '',
+        code: 'https://github.com/misathemeb/rest-countries',
+        demo: 'https://github.com/misathemeb/rest-countries',
         image: ""
     },
     {
@@ -53,7 +53,7 @@ export const projectsData = [
         projectDesc: 'This is a vanilla javascript app with an express.js backend to demonstrate pulling data vs a data.js file',
         tags: ['HTML', 'CSS','Javascript', 'party.js', 'express.js'],
         code: 'https://github.com/misathemeb/reviews',
-        demo: '',
+        demo: 'https://github.com/misathemeb/reviews',
         image: ""
     },
     
