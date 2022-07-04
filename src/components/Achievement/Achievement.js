@@ -5,6 +5,7 @@ import { ThemeContext } from '../../contexts/ThemeContext';
 import { achievementData } from '../../data/achievementData'
 import AchievementCard from './AchievementCard';
 
+// 'success' title in nav menu and page heading
 function Achievement() {
 
     const { theme } = useContext(ThemeContext);
@@ -13,7 +14,7 @@ function Achievement() {
             {achievementData.achievements.length > 0 && (
                 <div className="achievement" id="achievement" style={{backgroundColor: theme.secondary}}>
                 <div className="achievement-body">
-                    <h1 style={{color: theme.primary}}>Achievements</h1>
+                    <h1 style={{color: theme.primary}}>Success</h1>
                     <h4 style={{color:theme.tertiary}}>{achievementData.bio}</h4>
                 </div>
                 <div className="achievement-cards">

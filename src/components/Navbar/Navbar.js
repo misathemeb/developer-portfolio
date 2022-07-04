@@ -270,7 +270,7 @@ function Navbar() {
                                         className={classes.drawerIcon}
                                     />
                                     <span className={classes.drawerLinks}>
-                                        Achievements
+                                        Success
                                     </span>
                                 </div>
                             </NavLink>
