@@ -38,15 +38,15 @@ export const projectsData = [
         demo: 'https://react-appt-planner.netlify.app/',
         image: "https://user-images.githubusercontent.com/91221861/173641298-006f24a3-c9f3-460c-9b02-6a9bec93c66e.png"
     },
-    {
-        id: 5,
-        projectName: 'Countries',
-        projectDesc: 'This project is a fullstack app inspired by a FrontEndMentor challenge.',
-        tags: ['HTML', 'CSS', 'React', 'JSX'],
-        code: 'https://github.com/misathemeb/rest-countries',
-        demo: 'https://github.com/misathemeb/rest-countries',
-        image: ""
-    },
+    // {
+    //     id: 5,
+    //     projectName: 'Countries',
+    //     projectDesc: 'This project is a fullstack app inspired by a FrontEndMentor challenge.',
+    //     tags: ['HTML', 'CSS', 'React', 'JSX'],
+    //     code: 'https://github.com/misathemeb/rest-countries',
+    //     demo: 'https://github.com/misathemeb/rest-countries',
+    //     image: ""
+    // },
     {
         id: 6,
         projectName: 'Todo App',
