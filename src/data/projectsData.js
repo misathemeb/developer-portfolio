@@ -49,12 +49,12 @@ export const projectsData = [
     },
     {
         id: 6,
-        projectName: 'Reviews generator',
-        projectDesc: 'This is a vanilla javascript app with an express.js backend to demonstrate pulling data vs a data.js file',
-        tags: ['HTML', 'CSS','Javascript', 'party.js', 'express.js'],
-        code: 'https://github.com/misathemeb/reviews',
-        demo: 'https://github.com/misathemeb/reviews',
-        image: ""
+        projectName: 'Todo App',
+        projectDesc: 'This is a CRUD app utilizing React custom hooks',
+        tags: ['HTML', 'CSS','Javascript', 'React'],
+        code: 'https://github.com/misathemeb/todo-custom-hooks',
+        demo: 'https://todo-reacthooks.netlify.app/',
+        image: "https://user-images.githubusercontent.com/91221861/177183022-2b9644cf-01f4-4885-ace1-f717c730b479.png"
     },
     
     
