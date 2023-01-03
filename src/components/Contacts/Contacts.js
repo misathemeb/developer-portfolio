@@ -5,7 +5,7 @@ import axios from 'axios';
 import isEmail from 'validator/lib/isEmail';
 import { makeStyles } from '@material-ui/core/styles';
 import {
-    FaTwitter,
+   
     FaLinkedinIn,
     FaGithub,
 } from 'react-icons/fa';
@@ -283,16 +283,6 @@ function Contacts() {
                         
                           
                         <div className='socialmedia-icons'>
-                            {socialsData.twitter && (
-                                <a
-                                    href={socialsData.twitter}
-                                    target='_blank'
-                                    rel='noreferrer'
-                                    className={classes.socialIcon}
-                                >
-                                    <FaTwitter aria-label='Twitter' />
-                                </a>
-                            )}
                             {socialsData.github && (
                                 <a
                                     href={socialsData.github}
