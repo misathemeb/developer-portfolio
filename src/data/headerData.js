@@ -1,5 +1,5 @@
 // import resume from '../assets/pdf/resume.pdf'
-import resume3 from '../assets/pdf/resume3.pdf'
+import resume3 from '../assets/pdf/MBridi2023.pdf'
 
 export const headerData = {
     name: 'Melissa Bridi',
