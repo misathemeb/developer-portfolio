@@ -1,5 +1,5 @@
 export const achievementData = {
-    bio : "Be kind, stay positive, waste no time. - M Bridi",
+    bio : "We are trying to prove ourselves wrong as quickly as possible, because only in that way can we find progress. ― Richard P. Feynman",
     achievements : [
         {
             id : 1,
