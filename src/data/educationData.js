@@ -2,16 +2,12 @@ export const educationData = [
     {
         id: 1,
         institution: 'Messiah College',
-        course: 'B.S. Biology',
-        startYear: '2005',
-        endYear: '2007'
+        course: 'B.S. Biology'
     },
     {
         id: 2,
         institution: 'California University of Pennsylvania',
-        course: 'B.S Athletic Training',
-        startYear: '2002',
-        endYear: '2005'
+        course: 'B.S Athletic Training'
     },
     {
         id: 3,
