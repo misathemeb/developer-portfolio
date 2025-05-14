@@ -1,12 +1,12 @@
 export const educationData = [
     {
         id: 1,
-        institution: 'Messiah College',
+        institution: 'Messiah University',
         course: 'B.S. Biology'
     },
     {
         id: 2,
-        institution: 'California University of Pennsylvania',
+        institution: 'PennWest California',
         course: 'B.S Athletic Training'
     },
     {
